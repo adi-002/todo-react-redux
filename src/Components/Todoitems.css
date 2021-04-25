@@ -1,0 +1,63 @@
+.todo-items > li {
+  background-color: #ff0000;
+}
+.in-progress {
+  background-color: #ffcc00;
+}
+.completed {
+  background-color: #33cc33;
+}
+.abandon {
+  text-decoration: line-through;
+  background-color: #edf1f7;
+}
+.today-task-subdiv {
+  min-height: 100px;
+}
+.input-item {
+  margin: 8px;
+  padding: 4px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.todo-li {
+  display: flex;
+}
+.li-btns-div {
+  margin-left: auto;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 2px 1px 4px 1px grey;
+}
+.li-btn {
+  font-size: 22px;
+  margin: 3px 5px;
+  padding: 4px 3px 0 3px;
+  border: none;
+  border-radius: 20%;
+  background-color: whitesmoke;
+  position: relative;
+  display: inline-block;
+}
+.li-btn:hover {
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: #456772;
+  font-size: 10px;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 60%;
+  margin-left: -60px;
+}
+.li-btn:hover .tooltiptext {
+  visibility: visible;
+}

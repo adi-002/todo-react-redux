@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+
+.today-task {
+  display: flex;
+  font-family: "Caveat", cursive;
+}
+.today-task-subdiv {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 5px 6px -2px grey;
+  background-color: #edf1f7;
+  border-radius: 10px;
+  padding: 20px 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  width: 60%;
+  overflow: auto;
+}
+.today-task-ul {
+  list-style-type: decimal;
+}
+
+.form-group > label {
+  font-size: 18px;
+}
+.add-btn {
+  border: none;
+  border-radius: 50%;
+  padding: 2px 2px 0 2px;
+  background-color: deepskyblue;
+  box-shadow: 2px 2px 3px grey;
+  margin-left: 5px;
+}
+.add-btn:hover {
+  background-color: rgb(0, 132, 255);
+}
+.item-input-div {
+  display: flex;
+}
+.add-item-input {
+  font-size: 25px;
+  border: none;
+  margin: 5px;
+  box-shadow: 3px 2px 7px -2px grey;
+  text-align: center;
+  border-radius: 5px;
+}
